@@ -1,0 +1,15 @@
+#
+print('Welcome,this is simple chatbot ')
+#user_input=input('what is your name: ')
+input("enter from this inorder to leave or continue---{'bye','exit','Bye' },Or press enter and say {hi,hey,what's up} to continue:____")
+while True:
+ user_input=input("you: ".lower().strip())
+ if user_input in {'bye','exit','Bye' }:
+    print('Thanks for chating with me.')
+    break
+ elif user_input in ['hi','hello','hey',"what's up"]:
+    print ('Hello there ,how are you doing')
+ elif user_input in ('good','bad','feelwell','well'):
+    print('your emotion does not matter just work what you have to be done on time.')
+else:
+    print('Thanks for chating with me.')
